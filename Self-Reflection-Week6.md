@@ -1,31 +1,40 @@
-# # Week 6
+# Week 6
 ## Learning Activities & Resources
-This week, I focused on learning how to replace the existing theme packs in WordPress. I'm beginning to understand that there are several advantages to customizing and replacing theme packs.
+This week, I created a GitHub repo and invited my team members to join our project. During this process, I learned the basics of git from this page: [https://github.com/git-guides/git-init](https://github.com/git-guides/git-init).
 
-1. Customize the Parent Themes: You can modify the styles, functions and behavior of a parent theme to meet your needs without affecting the source code of the parent theme.
-2. Convenient Updates: When a parent theme is updated, you can easily update your child theme without losing any customized modifications.
-3. Manage multiple websites: If you are managing multiple websites with the same parent theme, you can make a modifications by creating a sub-theme and then applying it across all the websites. 
+I also explored how to use Trello and its application to our project on the following page: [https://trello.com/integrations](https://trello.com/integrations).
+
 
 ## Estimated Hours
-This week, I spent nine hours studying.
+This week, I spent 6 hours on this subject, mainly focusing on assigning tasks with my teammates and discussing how to complete our assignments.
 
 ## Content Insights
-The specific steps for replacing a WordPress theme with a subtopic are as follows.
+The core components of Trello are boards, lists, and cards. These components help users organize projects, track task progress, and collaborate.
 
-### Create a Child Theme Directory
-Create a subdirectory named "child-theme" in WordPress theme directory. For instance, if the parent theme directory is named "twentynineteen," then the child theme directory should be named "twentynineteen-child."
+1. Boards: Represent a project or a work domain, a space where tasks and activities can be created.
+2. Lists: Typically represent different stages of the task workflow, such as "To Do," "In Progress," and "Completed."
+3. Cards: Signify specific tasks or items, to which detailed information can be added, such as descriptions, comments, attachments, due dates, labels, and assignment to specific members.
 
-### Add a Child Theme Stylesheet
-Within the subtopic directory, create a file named "style.css". This file will define the styles of my child theme.
+Trello is very suitable for agile development processes, but its flexibility allows it to adapt to a variety of different workflows and management needs.
 
-### Modify Child Theme Styles
-Website owner can add CSS styles to the "style.css" file as required to customize owner's subtopics.
+Furthermore, I also studied how to operate git and created a local branch for future project use:
 
-### Activate the child Theme
-In the WordPress dashboard, navigate to the theme "Appearance", "Find the child theme and activate it.
-
-### Implement further customizations
-If necessary, website owner can add JavaScript files (such as "script.js") and template files (such as "header.php", "footer.php", etc.) in the sub-topic directory, so as to realize wider customization functions. 
+1. git clone: Pull the repository from online to local.
+2. git status: Check the current branch status to view the history of commits in the current branch.
+3. git pull & git push: Pull the latest code submitted by team members, and push updated code (like a README) based on their changes back to the repository.
+4. git init: Initialize a local git repository.
 
 ## Career/Employability/Learning Insights
-In my future career, I can make use of my accumulated knowledge about theme packages to realize commercialization quickly. When a customer has a business ideas involving theme change, I can provide a variety of choices. Creating and using subtopics can better control the appearance and function of the website, and at the same time save time and development costs. 
+The knowledge I learned this week should be skills that will be used every day in my future career:
+
+### In the first half hour of work:
+- Review the commits made by colleagues on the latest project branch (updated code).
+- Track project progress in Trello, update tasks for the day, check if the overall project is on schedule, and assess potential risks that could delay the project launch.
+
+### During work hours:
+- Update code and commit changes to the project branch in a timely manner to prevent loss of information due to computer damage.
+- Update project progress in Trello to keep the team leader and members informed about the progress, manage risks, and allocate tasks more effectively.
+
+### As work approaches the end of the day:
+- Perform a final `git push`. If team members have also committed to the same branch, it may be necessary to merge their branches.
+- Update the day's progress in Trello, summarizing what has been accomplished.
