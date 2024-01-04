@@ -26,7 +26,7 @@
 5. SQL Injection Prevention: Security practices to prevent SQL injection attacks. 
 
 ## Estimated Hours
-本周我花了 11 小时去学习本课程，因为 php 对我来说是个很新奇的东西，php 用单独一个语言去粘合了 mysql、C++、python 等语言。
+This week I spent 11 hours studying this course because PHP is quite new to me. PHP uses a single language to interface with MySQL, C++, Python, and other languages.
 
 ## Content Insights
 This week's tasks involves practicing essential PHP programming concepts by creating scripts that demonstrate the following tasks:
